@@ -1,5 +1,5 @@
 #include <stdio.h>/*
-void main(){
+void main(){ //using two arrays to reverse
 
     //initilise variables
     int size, i,k;
@@ -22,7 +22,7 @@ void main(){
         printf("%d\t",rev_arr[i]);
     }
 }*/
-void main(){
+void main(){  //using single array to reverse
 
     //initilise variables
     int size, i;
