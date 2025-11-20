@@ -1,5 +1,5 @@
 #include <stdio.h>
-int maine(){
+int main(){
     //initialize variables
     int largest=0, second_largest=0, size, i;
     //ask for the size of the array
