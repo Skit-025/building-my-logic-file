@@ -1,7 +1,7 @@
 # include stdio.h
 # include stdlib.h 
 int binSearch(int A[],int size,int ITEM){
-    int BEG=0,END=SIZE-1;
+    int BEG=0,END=size-1;
     while(BEG<=END){
         int mid=(BEG+END)/2;
         if(A[mid]==ITEM)
@@ -17,6 +17,7 @@ int main(){
     int temp ,i,j,size,ITEM;
     printf("Enter size of array:");
     scanf("%d",&size);
+    int A[size];
     printf("Enter %d elements:\n",size);
     for(i=0;i<size;i++){
         scanf("%d",&A[i]);

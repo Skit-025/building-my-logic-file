@@ -3,7 +3,7 @@ void display(int n,int m,int B[n][m]){
     printf("The transpose of the matrix is: \n");
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
-           printf("%d\t",B[i][j]);
+        printf("%d\t",B[i][j]);
         }
         printf("\n");
     }
