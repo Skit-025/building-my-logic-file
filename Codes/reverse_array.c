@@ -1,7 +1,7 @@
 #include <stdio.h>/*
 void main(){ //using two arrays to reverse
 
-    //initilise variables
+    //initialize variables
     int size, i,k;
     printf("Enter the size of the array\n");
     scanf("%d",&size);
@@ -24,7 +24,7 @@ void main(){ //using two arrays to reverse
 }*/
 void main(){  //using single array to reverse
 
-    //initilise variables
+    //initialise variables
     int size, i;
     printf("Enter the size of the array\n");
     scanf("%d",&size);
