@@ -20,5 +20,5 @@ int main(){
     printf("Enther the value of n:");
     scanf("%d",&n);
     pattern(n);
-    return 1;
+    return 0;
 }
