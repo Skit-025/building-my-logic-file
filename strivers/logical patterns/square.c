@@ -13,4 +13,5 @@ int main(){
     printf("Enther the value of n: ");
     scanf("%d",&n);
     square(n);
+    return 0;
 }
