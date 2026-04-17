@@ -16,5 +16,5 @@ int main(){
     printf("Enter the value of the n: ");
     scanf("%d",&n);
     pattern(n);
-return 1;
+return 0;
 }
