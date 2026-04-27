@@ -27,3 +27,26 @@ int main(){
     pattern(n);
 return 0;
 }
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a=65;
+    int k=a;
+    int n=4;
+    for(int i=0;i<=3;i++){
+        for(int j=n-i-1;j>0;j--){
+            printf(" ");
+        }
+        for(k=a;k<=a+i;k++){
+            printf("%c",(char) k);
+        }
+        for(int l=k-2;l>=a;l--){
+            printf("%c",(char) l);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
