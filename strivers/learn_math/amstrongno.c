@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdbool.h>
 bool amstrong(int n){
     int num=n;
     int digit;
